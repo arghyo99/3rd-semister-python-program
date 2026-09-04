@@ -1,0 +1,18 @@
+def factorial(n):
+    result = 1
+    for i in range(1,n+1):
+        result = result * i
+
+    return result
+
+n = int(input("Enter a number: "))
+
+print("Factorial =", factorial(n))
+
+
+
+# ------------------ or --------
+
+import math
+n = int(input('enter a fctorial number '))
+print('fctorial number ', math.factorial(n))
